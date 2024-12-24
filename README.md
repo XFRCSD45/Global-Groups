@@ -1,5 +1,7 @@
 # User Management Application
 
+## Deployed On Vercel
+ Deployement Link (https://globalgroupware.vercel.app/)
 ## Overview
 This project is a React-based user management application that integrates with the Reqres API to perform basic user management functions. It includes the following features:
 
@@ -57,8 +59,8 @@ Follow these steps to set up and run the project locally:
 
 ### 1. **Authentication**
    - Users can log in with predefined credentials:
-     - **Email**
-     - **Password**
+     - **Email**: `eve.holt@reqres.in`
+     - **Password**: `cityslicka`
    - The login generates a token that is stored in localStorage.
 
 ### 2. **User List**
@@ -119,46 +121,21 @@ Follow these steps to set up and run the project locally:
   ```
 
 ---
-
-## Folder Structure
-
-```
-src/
-├── components/
-│   ├── Auth/
-│   │   └── Login.js
-│   ├── Users/
-│   │   ├── UserList.js
-│   │   └── UserEdit.js
-├── context/
-│   └── AuthContext.js
-├── utils/
-│   └── api.js
-├── App.js
-├── index.js
-├── styles.css
-```
-
----
-
-## Future Enhancements
-
-- Add unit tests for components and utility functions.
-- Implement role-based access control for different user types.
-- Enhance the UI/UX with additional animations and transitions.
-- Add server-side filtering and sorting for better performance with large datasets.
-
----
-
-## License
-
-This project is licensed under the MIT License. Feel free to use and modify it as needed.
-
----
-
-## Acknowledgments
-
-- [Reqres API](https://reqres.in/) for providing a mock backend.
-- [Tailwind CSS](https://tailwindcss.com/) for styling.
-- [React Hot Toast](https://react-hot-toast.com/) for notifications.
-
+ 
+Screenshots of the app
+1. Login Screen with validation on required fields
+<img align="center" width="100%" src="Login.png">
+2. Error message on invalid credentials
+<img align="center" width="100%" src="Login2.png">
+3. Successfully LoggedIn with success message
+<img align="center" width="100%" src="Login3.png">
+4. All Users List with Pagination
+<img align="center" width="100%" src="UserList.png">
+5. Edit User with prefilled values and validation
+<img align="center" width="100%" src="Edit User.png">
+6. Successfully Edited user with success message
+<img align="center" width="100%" src="Edit user2.png">
+7. Delete user successfully
+<img align="center" width="100%" src="Delete.png">
+8.Search or FIlter users based on their Frst name, Last Name and Email
+<img align="center" width="100%" src="SearchorFilter.png">
