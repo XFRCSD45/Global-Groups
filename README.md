@@ -57,8 +57,8 @@ Follow these steps to set up and run the project locally:
 
 ### 1. **Authentication**
    - Users can log in with predefined credentials:
-     - **Email**: `eve.holt@reqres.in`
-     - **Password**: `cityslicka`
+     - **Email**
+     - **Password**
    - The login generates a token that is stored in localStorage.
 
 ### 2. **User List**
