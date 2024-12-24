@@ -126,15 +126,15 @@ Screenshots of the app
 1. Login Screen with validation on required fields
 <img align="center" width="100%" src="Login.png">
 2. Error message on invalid credentials
-<img align="center" width="100%" src="Login2.png">
+<img align="center" width="100%" src="LogIn2.png">
 3. Successfully LoggedIn with success message
-<img align="center" width="100%" src="Login3.png">
+<img align="center" width="100%" src="login3.png">
 4. All Users List with Pagination
 <img align="center" width="100%" src="UserList.png">
 5. Edit User with prefilled values and validation
-<img align="center" width="100%" src="Edit User.png">
+<img align="center" width="100%" src="Edituser.png">
 6. Successfully Edited user with success message
-<img align="center" width="100%" src="Edit user2.png">
+<img align="center" width="100%" src="EditUser2.png">
 7. Delete user successfully
 <img align="center" width="100%" src="Delete.png">
 8.Search or FIlter users based on their Frst name, Last Name and Email
